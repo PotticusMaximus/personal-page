@@ -147,6 +147,22 @@ h3 {
   margin: 1px;
   align-self: center;
 }
+.ovtxtcon {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: auto;
+  height: auto;
+}
+.ovtxt {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background-color: #000000;
+  color: #fff;
+  padding: 5px 5px;
+  font-size: 10px;
+  text-align: center;
+}
 
 blockquote {
   width: 40%;
