@@ -1,3 +1,11 @@
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0.5%;
+  justify-items: center;
+  align-items: center;
+}
 header {
   margin: 10px;
   border: 2px solid red;
